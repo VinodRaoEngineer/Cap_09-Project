@@ -1,0 +1,27 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+nav {
+            
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+    height: auto;
+    z-index: 1000;
+    background-color: white;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* border: 1px solid black; */
+    height: 55px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-bottom: 40px;
+}
+
